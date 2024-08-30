@@ -24,7 +24,7 @@ export default function Login() {
 
         try {
 
-            const response = await axios.post(`http://localhost:5000/login`, {
+            const response = await axios.post(`http://av-yourhr-be.vercel.app/login`, {
                 username: LoginUsername,
                 password: LoginPassword,
             })
@@ -54,7 +54,7 @@ export default function Login() {
     async function handleRegisterSubmit(e) {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:5000/register', {
+            const response = await axios.post('http://av-yourhr-be.vercel.app/register', {
                 username: RegisterUsername,
                 email: email,
                 password: RegisterPassword,

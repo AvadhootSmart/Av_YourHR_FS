@@ -19,33 +19,33 @@ export default function Navbar() {
     setToken(storedToken);
   }, []);
   /*  useGSAP(() => {
-          gsap.from(".leftLinks", {
-            y: -50,
-            opacity: 0,
-            duration: 0.5,
-            stagger: 0.2,
-            ease: "power1",
+            gsap.from(".leftLinks", {
+              y: -50,
+              opacity: 0,
+              duration: 0.5,
+              stagger: 0.2,
+              ease: "power1",
+            });
+        
+            gsap.from(".button", {
+              y: -50,
+              opacity: 0,
+              duration: 0.5,
+              delay: 0.5,
+              stagger: 0.2,
+              ease: "power1",
+            });
+        
+            gsap.from(".nav", {
+              height: 0,
+              duration: 0.5,
+              ease: "power1",
+            });
           });
-      
-          gsap.from(".button", {
-            y: -50,
-            opacity: 0,
-            duration: 0.5,
-            delay: 0.5,
-            stagger: 0.2,
-            ease: "power1",
-          });
-      
-          gsap.from(".nav", {
-            height: 0,
-            duration: 0.5,
-            ease: "power1",
-          });
-        });
-      */
+        */
   return (
     <>
-      <div className="nav absolute  top-0 left-0 z-1000 h-[10vh] w-screen text-black px-20 flex justify-between items-center bg-[#fcbf49] border-b-4 border-black ">
+      <div className="nav absolute  top-0 left-0 z-1000 h-[10vh] w-full text-black px-20 flex justify-between items-center bg-[#fcbf49] border-b-4 border-black ">
         <div className=" flex gap-20">
           <div className="flex gap-2 items-center">
             <h1 className="leftLinks font-bold font-cursive text-4xl ">
