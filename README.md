@@ -1,6 +1,3 @@
-Great! I'll review the repository and create the documentation based on the contents of your project. This might take a moment. I'll provide you with a draft once it's ready.
-
-I've reviewed your repository and prepared the initial draft for the project documentation:
 
 ---
 
