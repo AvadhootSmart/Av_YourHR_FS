@@ -131,6 +131,12 @@ Contributions are welcome! Please fork the repository, create a new branch for y
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
+## Database Credentials
+
+Connect to the following string on MongoDB atlas.
+mongodb+srv://read-only-user:thisisthepasswordforreadonlyuser@cluster0.sxsvl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
 ## Acknowledgements
 - [MERN Stack](https://mern.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
