@@ -133,7 +133,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Database Credentials
 
-Connect to the following string on MongoDB atlas.
+1.Download and install MongoDB Compass.
+2.Open MongoDB Compass and paste the connection string into the New Connection field.
+3.Click Connect.
+
+Connection String:
 mongodb+srv://read-only-user:thisisthepasswordforreadonlyuser@cluster0.sxsvl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 
